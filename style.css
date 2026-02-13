@@ -452,6 +452,8 @@ footer a:hover {
 
 .skills-page {
   padding: 80px 10%;
+  padding: 80px 10%;
+  animation: fadeInUp 1.2s ease-in;
 }
 
 .section-title {
@@ -500,6 +502,7 @@ footer a:hover {
   border-color: #64ffda;
   box-shadow: 0 8px 20px rgba(100,255,218,0.2);
 }
+
 
 
 
