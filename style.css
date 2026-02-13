@@ -448,11 +448,59 @@ footer a:hover {
 }
 
 /* Hover Effect */
-.skill-box:hover {
-  transform: translateY(-6px);
-  border-color: #64ffda;
-  box-shadow: 0 10px 25px rgba(100, 255, 218, 0.2);
+/* SKILLS PAGE */
+
+.skills-page {
+  padding: 80px 10%;
 }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-box {
+  flex: 1;
+  min-width: 250px;
+  background: #112240;
+  border: 1px solid #233554;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.skill-box h3 {
+  color: #64ffda;
+  margin-bottom: 10px;
+}
+
+.skill-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-box li {
+  margin: 6px 0;
+  color: #ccd6f6;
+}
+
+/* Hover Effect */
+
+.skill-box:hover {
+  transform: translateY(-8px);
+  border-color: #64ffda;
+  box-shadow: 0 8px 20px rgba(100,255,218,0.2);
+}
+
 
 
 
