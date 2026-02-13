@@ -408,8 +408,6 @@ footer a:hover {
 
 /* ===== SKILLS PAGE ===== */
 
-/* ===== SIMPLE SKILLS SECTION ===== */
-
 .skills-page {
   padding: 80px 10%;
   animation: fadeInUp 1.2s ease-in;
@@ -434,5 +432,6 @@ footer a:hover {
   line-height: 1.8;
   font-size: 16px;
 }
+
 
 
