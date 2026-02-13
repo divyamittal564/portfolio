@@ -408,53 +408,31 @@ footer a:hover {
 
 /* ===== SKILLS PAGE ===== */
 
+/* ===== SIMPLE SKILLS SECTION ===== */
+
 .skills-page {
   padding: 80px 10%;
   animation: fadeInUp 1.2s ease-in;
 }
 
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+.skills-content {
+  max-width: 800px;
 }
 
-.skill-category {
-  background: #112240;
-  padding: 25px;
-  border-radius: 10px;
-  border: 1px solid transparent;
-  transition: 0.3s;
+.skill-block {
+  margin-bottom: 40px;
 }
 
-.skill-category:hover {
-  transform: translateY(-8px);
-  border-color: #64ffda;
-  box-shadow: 0 4px 15px rgba(100,255,218,0.2);
+.skill-block h3 {
+  color: #e6f1ff;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.skill-category h3 {
-  color: #64ffda;
-  margin-bottom: 15px;
+.skill-block p {
+  color: #ccd6f6;
+  line-height: 1.8;
+  font-size: 16px;
 }
 
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
 
-.skill-tags span {
-  background: #0a192f;
-  color: #64ffda;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 14px;
-  border: 1px solid #64ffda;
-  transition: 0.3s;
-}
-
-.skill-tags span:hover {
-  background: #64ffda;
-  color: #0a192f;
-}
