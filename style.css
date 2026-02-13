@@ -14,6 +14,8 @@ body {
 }
 
 header {
+
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -407,50 +409,13 @@ footer a:hover {
 }
 
 /* ===== SKILLS PAGE ===== */
-body{
-    font-family: Arial, sans-serif;
-    background:#f4f6f9;
+/* SKILLS PAGE */
+
+.skills-page {
+  padding: 80px 10%;
+  animation: fadeInUp 1.2s ease-in;
 }
 
-/* Main container */
-.skills-section{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
-    padding:40px;
-}
-
-/* Skill Card */
-.skill-card{
-    background:white;
-    width:250px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    transition:0.3s;
-}
-
-/* Hover Effect */
-.skill-card:hover{
-    transform:translateY(-10px);
-    background:#007bff;
-    color:white;
-    cursor:pointer;
-}
-
-.skill-card h3{
-    text-align:center;
-}
-
-.skill-card ul{
-    list-style:none;
-    padding:0;
-}
-
-.skill-card li{
-    padding:5px 0;
-}
 
 
 
